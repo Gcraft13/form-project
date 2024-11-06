@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: black;
+  display: flex;
+  height: 100vh;
+}
+
+.form-panel {
+  background-color: white;
+  flex: 3;
+}
+
+div .statement {
+  display: flex;
+  margin: 50px, 25px;
+
+  text-align: left;
+  text-wrap: wrap;
+}
+
+.logo-panel {
+  background-color: red;
+  flex: 1;
+  background-image: url(./images/download.jpg);
+}
