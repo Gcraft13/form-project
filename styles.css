@@ -3,29 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-}
-
-.container {
-  background-color: black;
-  display: flex;
-  height: 100vh;
-}
-
-.form-panel {
-  background-color: white;
-  flex: 3;
-}
-
-div .statement {
-  display: flex;
-  margin: 50px, 25px;
-
-  text-align: left;
-  text-wrap: wrap;
+  line-height: 1.5;
 }
 
 .logo-panel {
-  background-color: red;
-  flex: 1;
-  background-image: url(./images/download.jpg);
+  background: url(./images/halie-west-25xggax4bSA-unsplash.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: center center;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  color: white;
 }

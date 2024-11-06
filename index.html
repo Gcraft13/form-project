@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="logo-panel">
-        <header class="logo"></header>
+    <div class="side-panel">
+      <div class="logo-container">
+        <img src="./images/odin-lined.png" alt="" />
       </div>
-      <div class="form-panel">
-        <div class="statement">
-          <p>
-            Like this in your life to help you realize your deepest dreams. Sign
-            up <em>now</em> to get started.
-          </p>
-        </div>
+      <p>
+        Photo by Halie West on
+        <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+    <div class="form-panel">
+      <div class="statement">
+        <p>
+          Like this in your life to help you realize your deepest dreams. Sign
+          up <em>now</em> to get started.
+        </p>
+      </div>
+      <div class="form">
         <form action="get">
           <fieldset>
             <legend>Let's Do This!</legend>
@@ -26,8 +35,23 @@
             <label for="last_name">Last Name</label>
             <input type="text" id="last_name" />
           </fieldset>
+          <fieldset>
+            <label for="email">Email</label>
+            <input type="text" id="email" />
+            <label for="last_name">Phone Number</label>
+            <input type="number" id="phone" />
+          </fieldset>
+          <fieldset>
+            <label for="password">Password</label>
+            <input type="text" id="email" />
+            <label for="confirm_password">Confirm Password</label>
+            <input type="text" id="confirm_password" />
+          </fieldset>
         </form>
       </div>
+      <footer>
+        <button>Create Account</button>
+      </footer>
     </div>
   </body>
 </html>
