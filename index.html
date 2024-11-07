@@ -37,7 +37,7 @@
         <p>Let's do this!</p>
         <form action="get">
           <div class="input-container">
-            <label for="first_name" placeholder="Joe">First Name</label>
+            <label for="first_name">First Name</label>
             <input type="text" id="first_name" />
           </div>
           <div class="input-container">
@@ -46,20 +46,25 @@
           </div>
           <div class="input-container">
             <label for="email">Email</label>
-            <input type="text" id="email" />
+            <input type="text" id="email" placeholder="joe@hotmail.com" />
           </div>
           <div class="input-container">
-            <label for="last_name">Phone Number</label>
-            <input type="number" id="phone" />
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" placeholder="(703)-318-9698" />
           </div>
 
           <div class="input-container">
             <label for="password">Password</label>
-            <input type="text" id="email" />
+            <input type="text" id="email" minlength="8" maxlength="12" />
           </div>
           <div class="input-container">
             <label for="confirm_password">Confirm Password</label>
-            <input type="text" id="confirm_password" />
+            <input
+              type="text"
+              id="confirm_password"
+              minlength="8"
+              maxlength="12"
+            />
           </div>
         </form>
       </div>
