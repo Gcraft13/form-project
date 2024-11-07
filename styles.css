@@ -99,10 +99,14 @@ input {
   border: 2px solid rgba(0, 0, 0, 0.078);
 }
 
-input :invalid {
+input:invalid {
   background-color: ivory;
   border: none;
   outline: 2px solid red;
+}
+input:focus {
+  outline: 2px solid blue;
+  box-shadow: 5px 5px 5px;
 }
 footer {
   width: 100%;
